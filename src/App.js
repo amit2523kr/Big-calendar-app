@@ -4,6 +4,7 @@ import { setEvents } from './redux/calendarSlice';
 import { sampleData } from './data/sampleData';
 import { convertSampleDataToEvents } from './utils/dateUtils';
 import CalendarComponent from './components/CalendarComponent';
+import DataModal from './components/DataModal';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       
       <main className="app-main">
         <CalendarComponent />
+        <DataModal />
       </main>
     </div>
   );
