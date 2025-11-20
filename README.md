@@ -26,7 +26,7 @@ A React application that integrates React Big Calendar with Recharts bar graphs 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd big-calendar
+
 
 ##Install Dependencies
 npm install
